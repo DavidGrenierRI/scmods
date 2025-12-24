@@ -1,0 +1,50 @@
+# Python bytecode
+*.py[cod]
+*$py.class
+__pycache__/
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Virtual environments 
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Docker volumes and data
+*.sql
+*.sqlite
+
+# Media files 
+media/
+
+# Static files collected for production 
+staticfiles/
+static_root/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
