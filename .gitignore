@@ -48,3 +48,7 @@ htmlcov/
 *.egg-info/
 dist/
 build/
+
+# To Do lists and similar 
+local_notes.txt
+session-log.md 
