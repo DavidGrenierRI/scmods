@@ -1,0 +1,14 @@
+line-length = 88
+target-version = "py313"
+
+[lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings  
+    "F",   # pyflakes
+    "I",   # isort (import sorting)
+    "DJ",  # flake8-django
+]
+
+[lint.isort]
+known-first-party = ["client", "project", "task", "scmods"]
